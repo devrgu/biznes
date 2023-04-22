@@ -66,7 +66,7 @@
     }
     .block input{
         width: 350px;
-        height: 48px;
+        height: 60px;
         border: 1px solid rgba(0, 66, 105, 0.28);
         background-color: #FFFFFF;
         color: black;
@@ -90,14 +90,6 @@
     }
     .main-buttons{
         justify-content: center;
-    }
-    @media (max-width: 560px) {
-        .main-buttons{
-            flex-wrap: wrap;
-        }
-        .block{
-            max-width: 300px;
-        }
     }
 </style>
 <style>
@@ -140,5 +132,24 @@
         font-weight: 700;
         font-size: 15px;
         color: #41cb52;
+    }
+  @media (max-width: 560px) {
+        .main-buttons{
+            flex-wrap: wrap;
+        }
+        .block input{
+          height: 50px;
+      }
+      .v-dialog{
+        width: 100% !important;
+        margin: 0 !important;
+      }
+      div div .v-dialog__content{
+        padding-top: 50px !important;
+      }
+    .v-dialog:not(.v-dialog--fullscreen){
+      max-height: none;
+      height: 100% !important;
+    }
     }
 </style>

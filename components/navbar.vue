@@ -11,7 +11,7 @@
        <div class="nav-list" v-show="isActive">
        <div class="nav-list-content">
         <li><nuxt-link to="/" exact>ГЛАВНОЕ</nuxt-link></li>
-          <li><a href="tel:+87771235176">+7 (776) 979 30 15</a></li>
+          <li><a href="tel:+87771235176">+7 (777) 123 51 76</a></li>
         </div>
        </div>
              <div class="button" @click="dialogTrue"><p>ЗАПИСАТЬСЯ</p></div>
@@ -19,10 +19,14 @@
     </nav>
     </div>
     <v-app>
-      <v-dialog v-model="name" width="600">
+      <v-dialog v-model="name">
+      <div class="close-button" @click="Close">
+       <svg role="presentation" class="t-popup__close-icon" width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+       <g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd"><rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect><rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect></g>
+       </svg>
+      </div>
         <v-card height="800">
           <div class="window">
-            <img class="close-button" src="/close.svg" @click="Close">
             <div class="window-content">
                <div class="window-title">
                        <p>Оставьте заявку для<br>
@@ -90,8 +94,6 @@ export default {
             console.log('newValue')
            } 
         },
-        nav: {
-        }
   },
     mounted() {
     this.handleView();
@@ -234,10 +236,10 @@ export default {
         justify-content: center;
     }
     .close-button{
-      width: 18px;
+      width: auto;
       position: absolute;
       top: 16px;
-      left: 16px;
+      right: 16px;
     }
     .window-content{
         overflow: hidden;
@@ -272,13 +274,14 @@ export default {
         font-weight: 600;
         text-align: center;
         margin-bottom: 48px;
+        }    
     }
-        }
-        @media (min-width: 767px){
- h1 {
-  font-size: calc(24px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
- }
-}
+      
+    @media (min-width: 767px){
+         h1 {
+          font-size: calc(24px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+         }
+    }
         
         .hamburger-menu {
         display: block;

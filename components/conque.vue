@@ -21,8 +21,7 @@
                     <div class="conque-card-1-information conque-card-information information">
                         <p>Я знаю всю эту боль на своем опыте. Я знаю, как пройти через это. 
                             Я полностью понимаю и чувствую вас. Я на собственном опыте 
-                            убедился, что гипнотерапия может снова разжечь огонь любви и 
-                            оставить холодность и непонимание в прошлом.</p>
+                            убедился, что гипнотерапия может избавить вас от вечно заваливающих проблем.</p>
                     </div>
                 </div>
             </div>
@@ -84,8 +83,7 @@
                 </div>
                 <div class="conque-card-1-text conque-card-text">
                     <div class="conque-card-1-title conque-card-title">
-                        <h3>Будьте тем кем
-вы хотели быть</h3>
+                        <h3>Будьте тем кем вы хотели быть</h3>
                     </div>
                     <div class="conque-card-1-information conque-card-information information">
                         <p>На консультаций я вам это докажу. Для нас это обычное дело, но люди называют это чудом</p>

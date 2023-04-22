@@ -1,16 +1,12 @@
 import colors from 'vuetify/es5/util/colors'
 
 export default {
-    server: {
-       port: 3000,
-      host: '0.0.0.0',
-   },
-    axios: {
-    baseURL: 'http://192.168.56.1:3000/',
+  server: {
+    host: '0.0.0.0'
   },
   head: {
     titleTemplate: '%s - vetom.korea',
-    title: 'vetom.korea',
+    title: 'kadyrzhan',
     htmlAttrs: {
       lang: 'en'
     },
@@ -66,7 +62,6 @@ export default {
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
-    customVariables: ['~/assets/variables.scss'],
     theme: {
       dark: true,
       themes: {

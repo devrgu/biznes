@@ -9,7 +9,7 @@
                <div class="problem-section-1-icon problem-section-icon"><img src="/family_problem.svg"></div>
                <div class="problem-section-1-text problem-section-text">
                 <div class="problem-section-1-information problem-section-information">
-                 <strong>После развода у вас постоянные финансовые проблемы?</strong> - Я найду причину. <strong>Вам попадаются точно такие же мужчины, с которым развелись!</strong> Иллюзия? После развода осталась травма, которая не проходит даже спустя 10 лет. Поэтому вы не можете встретить мужчину своей мечты.
+                 Отношения: вы сталкиваетесь с трудностями в отношениях, как личных, так и профессиональных, из-за того, что ваши расписания и обязательства могут создавать проблемы в поддержании баланса между работой и личной жизнью?
                 </div>
             </div>
             </div>
@@ -17,7 +17,7 @@
                <div class="problem-section-1-icon problem-section-icon"><img src="/have_not_time.svg"></div>
                <div class="problem-section-1-text problem-section-text">
                 <div class="problem-section-1-information problem-section-information">
-                 Вы не можeте заберерменить даже за деньги? Вы хотите нормальную, стандартную семью с детьми, но это кажется Вам нереальным?
+                 Управление временем: у вас часто очень много дел, и вы сталкиваетесь с трудностями в управлении своим временем и приоритетами?
                 </div>
             </div>
             </div>
@@ -25,7 +25,7 @@
                <div class="problem-section-1-icon problem-section-icon"><img src="/zavist.svg"></div>
                <div class="problem-section-1-text problem-section-text">
                 <div class="problem-section-1-information problem-section-information">
-                 Родственники и бывший муж постоянно лезут не в свое дело и мешают вам жить своей жизнью? Вы не чувствуете поддержки любимого человека?
+                 Стресс и давление: вы сталкиваетесь с высоким уровнем стресса и давления, связанным с необходимостью постоянно принимать важные решения и поддерживать свой бизнес?
                 </div>
             </div>
             </div>
@@ -50,7 +50,7 @@
                <div class="problem-section-1-icon problem-section-icon"><img src="/broke_heart.svg"></div>
                <div class="problem-section-1-text problem-section-text">
                 <div class="problem-section-1-information problem-section-information">
-                 Это Вас разрывает изнутри, постоянно откачивает Вашу энергию и сбивает с пути...
+                 Проблемы здоровья: в связи с высоким уровнем стресса и давления, вы сталкиваетесь с проблемами здоровья, такими как бессонница, высокое кровяное давление?
                 </div>
             </div>
             </div>

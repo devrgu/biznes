@@ -3,7 +3,7 @@
     <div class="konsultatsia-content">
        <div class="konsultatsia-wrap content">
         <div class="konsultatsia-title title">   
-            <h3>Моя авторская программа "Imants Mind Therapy for Love" уже помогла многим женщинам, чья жизнь зашла в тупик. Они снова полюбили, стали мудрее, сумели пережить обиды и избавились от всего, что завело их в ловушку холодности, непонимания и проблемам со здоровьем.</h3>
+            <h3>Моя авторская программа "Serik Mind Therapy for Love" уже помогла многим женщинам, чья жизнь зашла в тупик. Они снова полюбили, стали мудрее, сумели пережить обиды и избавились от всего, что завело их в ловушку холодности, непонимания и проблемам со здоровьем.</h3>
         </div>
         <div class="main-button-continue-2 main-button">
            <a>КОНСУЛЬТАЦИЯ</a>
@@ -33,7 +33,7 @@
                     <h3>Электронная почта</h3>
                 </div>
                 <div class="recvisit-box-information information">
-                    <p>example@gmail.com</p>
+                    <p>saubakirov36@gmail.com</p>
                 </div>
             </div>
         </div>
@@ -46,7 +46,7 @@
                     <h3>Номер телефона</h3>
                 </div>
                 <div class="recvisit-box-information information">
-                    <p>+8 (776) 343 30 15</p>
+                    <p>+8 (777) 123 51 76</p>
                 </div>
             </div>
         </div>

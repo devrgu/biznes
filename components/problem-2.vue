@@ -25,7 +25,7 @@
                <div class="problem-section-1-icon problem-section-icon"><img src="/pig.svg"></div>
                <div class="problem-section-1-text problem-section-text">
                 <div class="problem-section-1-information problem-section-information">
-                 <p>Вы ходили по гадалкам и астрологам, но все больше убеждались, что вас просто разводят на деньги!</p>
+                 <p>Вы пытались уменьшить свои обязательства, делегировать задачи или нанимать помощников, но это не помогло?</p>
                 </div>
             </div>
             </div>
@@ -33,7 +33,7 @@
                <div class="problem-section-1-icon problem-section-icon"><img src="/tv.svg"></div>
                <div class="problem-section-1-text problem-section-text">
                 <div class="problem-section-1-information problem-section-information">
-                 <p>Вы провели тысячи часов слушая инфо-болтовню в ютубе блогеров самоучек, но только больше запутались?</p>
+                 <p>Вы пытались уменьшить свой стресс и давление, занимаясь йогой, медитацией или другими методами релаксации, но это была лишняя суета без прогресса?</p>
                 </div>
             </div>
             </div>

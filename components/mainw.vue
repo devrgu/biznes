@@ -4,15 +4,12 @@
    <div class="main-text-content">
      <div class="main-text-wrapper">
        <h1>
-Вы многие годы безуспешно пытаетесь сохранить или создать семью, прилично зарабатывать и быть здоровой, но это не дало вам ничего кроме разочарования?</h1>
+Вы многие годы безуспешно пытаетесь найти свободное время, устранить стрессы и давление, стать здоровым? Но это не дало вам ничего кроме разочарования?</h1>
          <p>Через Ваше подсознание я Вас выведу из этого состояния в физическое пространство где вы наслаждаетесь своими мечтами...<br>
 </p>
        <div class="buttons">
          <div class="main-button-zapis main-button">
-           <a>Записаться</a>
-         </div>
-         <div class="main-button-konsult main-button">
-           <a>Консультация</a>
+           <a>Записаться на бесплатную консультацию</a>
          </div>
        </div>
      </div>
@@ -104,16 +101,16 @@
         margin-top: 16px
     }
     .main-button{
-        width: 200px;
-        height: 50px;
+        min-width: 200px;
+        height: 60px;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 10px;
-        font-weight: 600;
-        font-size: 17px;
-        line-height: 0;
+        font-weight: 700;
+        font-size: 16px;
         margin: 12px;
+        padding: 0 30px;
     }
     .main-button-zapis{
         background-color: #41cb52;
