@@ -1,10 +1,11 @@
 import colors from 'vuetify/es5/util/colors'
+require('dotenv').config()
 
 export default {
-  server: {
-    host: '0.0.0.0'
-  },
-  head: {
+  server:{
+	host: '0.0.0.0'
+  },  
+	head: {
     titleTemplate: '%s - vetom.korea',
     title: 'kadyrzhan',
     htmlAttrs: {
@@ -44,17 +45,18 @@ export default {
   modules: [
       "@nuxtjs/svg",
       '@nuxtjs/axios',
+	  '@nuxtjs/dotenv',
     ['nuxt-mail', {
       message: {
-        to: 'saubakirov36@mail.ru',
+        to: 'saubakirov36@gmail.com',
       },
       smtp: {
-        service: 'mail',
-        host: 'smtp.mail.ru',
+        service: 'gmail',
+        host: 'smtp.gmail.com',
         port: 465,
         auth: {
-          user: 'saubakirov36@mail.ru',
-          pass: 'RtfYynh655La1viPTTvy'
+          user: 'saubakirov36@gmail.com',
+          pass: 'agja yzmx erwq ddfr'
         },
       },
     }],

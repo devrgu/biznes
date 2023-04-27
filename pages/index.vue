@@ -9,16 +9,30 @@
   <whyme></whyme>
   <mygoal></mygoal>
   <conque></conque>
+  <reklama></reklama>
 </div>
 </template>
 <script>
+  import { mapGetters } from 'vuex'
   export default{
-      name: 'IndexPage'
+      name: 'IndexPage',
+     computed: {
+          ...mapGetters ({
+           dialogx: 'dialog/getdialog',
+    }),
+          name: {
+           get(){
+             return this.dialogx
+           },
+        },
+  },
   }
+  
 </script>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900;1000&display=swap');
   /* Указываем box sizing */
+  $body-font-family: 'Mulish';
 *,
 *::before,
 *::after {
@@ -93,5 +107,9 @@ img {
     border: none;
     display: inline-block;
     border-radius: 100%;
+  }
+  .noscroll{
+    position: fixed;
+    width: 100%;
   }
 </style>

@@ -2,35 +2,33 @@
   <header>
     <div class="nav-wrap" :class="{'navbar--scrolled': scrolled}">
     <nav class="content">
-      <div class="hamburger-menu" @click="isActive = !isActive">
-      <div class="bar-wrap">
-       <div class="bar" :class="{animate: isActive}"></div>
-       </div>
+      <div class="hamburger-menu">
     </div>
       <ul>
-       <div class="nav-list" v-show="isActive">
+       <div class="nav-list">
        <div class="nav-list-content">
-        <li><nuxt-link to="/" exact>ГЛАВНОЕ</nuxt-link></li>
-          <li><a href="tel:+87771235176">+7 (777) 123 51 76</a></li>
+        <li class="main-link-navbar"><nuxt-link to="/" exact v-if="phoneicone">ГЛАВНОЕ</nuxt-link></li>
+         <li><a href="tel:+87771235176" class="phone"><span v-if="phoneicone">+7 (777) 123 51 76</span> <span class="phone-icon" v-else><img src="/phone.svg"></span></a></li>
         </div>
        </div>
-             <div class="button" @click="dialogTrue"><p>ЗАПИСАТЬСЯ</p></div>
+             <div class="button" @click="dialogTrue"><p>БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</p></div>
       </ul>
     </nav>
     </div>
     <v-app>
-      <v-dialog v-model="name">
+      <v-dialog v-model="name" width="600">
       <div class="close-button" @click="Close">
        <svg role="presentation" class="t-popup__close-icon" width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
        <g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd"><rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect><rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect></g>
        </svg>
       </div>
-        <v-card height="800">
+       <div class="wrap-close" @click.self="Close">
+        <v-card min-height="800" @click="none">
           <div class="window">
             <div class="window-content">
                <div class="window-title">
                        <p>Оставьте заявку для<br>
-                           <span>Обратной связи</span></p>
+                           <span>Бесплатной консультаций!</span></p>
                 </div>
                    <div class="window-forms">
                 <keep-alive>
@@ -41,8 +39,11 @@
             </div>
           </div>
         </v-card>
+     </div>
       </v-dialog>
-      <v-dialog v-model="success" width="800">
+      <span v-html="style" v-if="name"></span>
+      <div class="wrap-success">
+ 	  <v-dialog v-model="success" width="800" content-class="success-dialog">
         <v-card height="400">
           <div class="window">
             <div class="window-content">
@@ -55,17 +56,18 @@
                 </div>
                 <div class="main-buttons">
                 <div class="zapisatsa-button" @click="success = false">
-                <nuxt-link to="/success">ОТЛИЧНО</nuxt-link>
+                <nuxt-link to="/">ОТЛИЧНО</nuxt-link>
                 </div>
                 </div>
             </div>
           </div>
         </v-card>
       </v-dialog>
+	 </div>
     </v-app>
   </header>
 </template>
-<script>
+<script type="text/javascript">
 import { mapGetters } from 'vuex'
 import zapisatsa from '~/components/zapisatsa.vue'
 export default {
@@ -73,8 +75,8 @@ export default {
     return {
         data:'',
         success: false,
-        isActive: undefined,
-        scrolled: false
+        scrolled: false,
+        phoneicone: undefined
     }
   },
     components: {
@@ -94,28 +96,37 @@ export default {
             console.log('newValue')
            } 
         },
+        style() {
+      return (
+        `<style> html { height: 100vh;
+    min-height: 100vh;
+    overflow: hidden;} 
+  </style>`
+      );
+    }
   },
     mounted() {
-    this.handleView();
+      this.phoneicone = window.innerWidth > 788;
+    window.addEventListener('resize', this.updateWidth);
     window.addEventListener('scroll', this.handleScroll);
-    window.addEventListener("resize", this.handleView)
     console.log(this.dialogx)
   },
   beforeDestroy() {
     window.removeEventListener('scroll', this.handleScroll)
   },
     methods:{
-         handleView() {
-      window.innerWidth <= 768
-        ? (this.isActive = false)
-        : (this.isActive = true);
+    none(){
+      console.log()
+    },
+    updateWidth() {
+      this.phoneicone = window.innerWidth > 788;
+      console.log(this.phoneicone)
     },
     handleScroll() {
       this.scrolled = window.scrollY > 0;
     },
     dialogTrue(){
         this.$store.commit('dialog/dialogMutation', true);
-       
     },
     Close (child) {
       this.$store.commit('dialog/dialogMutation', false);
@@ -139,6 +150,9 @@ export default {
       max-width: 1170px;
       margin: 0 auto;
     }
+    .v-ripple__container {
+      display:none !important;
+    }
     nav li a:focus:after, 
     nav li a:hover,
     nav li a.nuxt-link-active,
@@ -148,7 +162,7 @@ export default {
       width: 100%;
     }
     .navbar--scrolled {
-        background-color: #6666;
+        background-color: rgba(0, 0, 0, 0.7);
         transition-duration: 0.5s;
     }
     .nav-wrap{
@@ -170,6 +184,7 @@ export default {
     nav ul {
         display: flex;
         align-items: center;
+        justify-content: space-between;
     }
     nav div img{
         width: 150px;
@@ -185,9 +200,23 @@ export default {
         position: relative;
 	line-height: 1; /*задаём высоту строки*/
     }
-    li a img {
-        vertical-align: middle;
-    }
+	.phone-icon{
+		display: block;
+		width: 42px;
+		height: 42px;
+		background-color: #FFFFFF;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 64px;
+		
+	}
+	.phone-icon img{
+		width: 24px;
+	}
+	.main-buttons{
+		justify-content: center;
+	}
     .button p{
         color: #41cb52;
         padding: 11px 30px;
@@ -199,6 +228,7 @@ export default {
         
     }
     .button{
+		text-align: center;
         margin-left: 128px;
         cursor: pointer;
     }
@@ -223,12 +253,24 @@ export default {
     .v-dialog__content--active{
         overflow: hidden;
     }
+	.success-dialog{
+		display: flex;
+		justify-content: center;
+		align-items: center
+	}
+	
+	  .wrap-close{
+		padding: 65px 50px;
+	  }
     .theme--dark.v-card {
         background-color: #FFFFFF !important;
     }
     .v-card{
         overflow: hidden;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Mulish', sans-serif;
+        width: 600px;
+        margin: 0 auto;
+        cursor: auto
     }
     .window{
         margin: 64px 0 64px 0;
@@ -239,14 +281,14 @@ export default {
       width: auto;
       position: absolute;
       top: 16px;
-      right: 16px;
+      right: 14.5px;
     }
     .window-content{
         overflow: hidden;
     }
     .window-title{
         font-size: 32px;
-        font-weight: 600;
+        font-weight: 700;
         text-align: center;
         margin-bottom: 56px;
     }
@@ -256,25 +298,39 @@ export default {
     .window-title p{
         color: #1D1919;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 788px) {
         .button{
             margin-right: 6vw;
             margin-left: 0;
         }
-        .hamburger-menu{
-          margin-left: 32px;
-
-        }
         nav{
           justify-content:space-between;
         }
+        nav ul {
+          width: 100%;
+        }
+		ul .main-link-navbar{
+			display: none;
+			margin: 0;
+		}
+      .nav-list{
+        margin: 0 30px;
+      }
+      .window-title{
+          font-size: calc(22px + (10 + 10 * 0.7) * ((100vw - 320px) / 788));
+        }
+  }      
     @media (max-width: 560px) {
         .window-title{
-        font-size: 6vw;
-        font-weight: 600;
-        text-align: center;
         margin-bottom: 48px;
-        }    
+        }
+		.nav-list{
+			margin: 0;
+		}
+		.button p{
+			font-size: 15px;
+			padding: 10px 30px;
+		}
     }
       
     @media (min-width: 767px){
@@ -282,96 +338,6 @@ export default {
           font-size: calc(24px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
          }
     }
-        
-        .hamburger-menu {
-        display: block;
-        padding-right: 40px;
-        height: 54px;
-        cursor: pointer;
-}
-    .nav-list{
-        position: absolute;
-        left: 0;
-        top: 80px;
-        background-color: #1D1919;
-        width: 250px;
-        height: 70vh;
-        z-index: 10;
-    }
-    .nav-list-content li{
-        margin: 0;
-        display: block;
-        text-align: center;
-    }
-    .nav-list-content li a{
-        font-size: 16px;
-        padding: 24px 0;
-        display: block;
-        border-bottom: 1px solid #A7A7A7;
-    }
-        li a:after{
-            height: 0px;
-        }
-        nav li a.nuxt-link-active,
-        nav li a.nuxt-link-exact-active:after{
-          background-color: #326BFF;
-          cursor: pointer;
-        }
-        @media (max-width: 370px) {
-            .window{
-                margin: 48px 0;
-            }
-        }
-        @media (max-width: 330px) {
-            
-        }
-.bar,
-.bar:after,
-.bar:before {
-  width: 40px;
-  height: 4.5px;
-}
-
-.bar {
-  position: relative;
-  transform: translateY(25px);
-  background: white;
-  transition: all 0ms 300ms;
-}
-.bar.animate {
-  background: rgba(255, 255, 255, 0);
-}
-
-.bar:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 13px;
-  background: white;
-  transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
-}
-
-.bar:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 13px;
-  background: white;
-  transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
-}
-
-.bar.animate:after {
-  top: 0;
-  transform: rotate(45deg);
-  transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
-}
-
-.bar.animate:before {
-  bottom: 0;
-  transform: rotate(-45deg);
-  transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
-}
-         
-    }
+      
 </style>
 

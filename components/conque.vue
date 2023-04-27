@@ -16,7 +16,7 @@
                 </div>
                 <div class="conque-card-1-text conque-card-text">
                     <div class="conque-card-1-title conque-card-title">
-                        <h3>Я тоже испытывал сложности с близким человеком</h3>
+                        <h3>Я тоже испытывал сложности с семьей и близкими</h3>
                     </div>
                     <div class="conque-card-1-information conque-card-information information">
                         <p>Я знаю всю эту боль на своем опыте. Я знаю, как пройти через это. 
@@ -86,7 +86,7 @@
                         <h3>Будьте тем кем вы хотели быть</h3>
                     </div>
                     <div class="conque-card-1-information conque-card-information information">
-                        <p>На консультаций я вам это докажу. Для нас это обычное дело, но люди называют это чудом</p>
+                        <p>Главная причина, это то, что я знаю четкое решение ваших проблем.</p>
                     </div>
                 </div>
             </div>

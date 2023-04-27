@@ -3,27 +3,30 @@
     <div class="konsultatsia-content">
        <div class="konsultatsia-wrap content">
         <div class="konsultatsia-title title">   
-            <h3>Моя авторская программа "Serik Mind Therapy for Love" уже помогла многим женщинам, чья жизнь зашла в тупик. Они снова полюбили, стали мудрее, сумели пережить обиды и избавились от всего, что завело их в ловушку холодности, непонимания и проблемам со здоровьем.</h3>
+            <h3>Моя авторская программа "Serik Mind Therapy for life" уже помогла многим людям, чья жизнь зашла в тупик. Они снова полюбили, стали мудрее, сумели пережить обиды и избавились от всего, что завело их в ловушку холодности, непонимания и проблемам со здоровьем.</h3>
         </div>
-        <div class="main-button-continue-2 main-button">
-           <a>КОНСУЛЬТАЦИЯ</a>
+        <div class="main-button-continue-2 main-button" @click="dialogTrue">
+           <a>БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</a>
         </div>
     </div>
     </div>
     <div class="konsultatsia-recvisits">
+       <a href="https://t.me/SerukAubakirov">
         <div class="office recvisit">
             <div class="recvisit-box-icon">
                 <iconpobeditel  width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"/>
             </div>
             <div class="recvisit-box-text">
                 <div class="recvisit-box-title">
-                    <h3>Адрес офиса</h3>
+                    <h3>Мой Telegram</h3>
                 </div>
                 <div class="recvisit-box-information information">
-                    <p>Aksai 3a, Almaty 3335Z</p>
+                    <p>@SerukAubakirov</p>
                 </div>
             </div>
         </div>
+        </a>
+        <a href="mailto:saubakirov36@gmail.com">
         <div class="office recvisit">
             <div class="recvisit-box-icon">
                 <iconpobeditel  width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"/>
@@ -37,6 +40,8 @@
                 </div>
             </div>
         </div>
+		</a>
+        <a href="tel:+87771235176">
         <div class="office recvisit">
             <div class="recvisit-box-icon">
                 <iconpobeditel  width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"/>
@@ -50,6 +55,7 @@
                 </div>
             </div>
         </div>
+		</a>
     </div>
 </div>
 </template>
@@ -59,6 +65,11 @@ import iconpobeditel from '~/assets/img/iconpobeditel.svg?inline';
 export default {
   components: {
     iconpobeditel
+  },
+  methods:{
+	dialogTrue(){
+        this.$store.commit('dialog/dialogMutation', true);
+    },
   }
 }
 </script>
@@ -77,7 +88,6 @@ export default {
         padding-bottom: 120px;
         position: relative;
         min-height: 500px;
-        
     }
     div.konsultatsia-title h2{
         color: #FFFFFF;
@@ -86,7 +96,7 @@ export default {
     }
     div.konsultatsia-title h3{
         color: #FFFFFF;
-        font-size: 36px;
+        font-size: 30px;
         font-weight: 600;
         margin-bottom: 40px
     }
@@ -104,6 +114,10 @@ export default {
         justify-content: center;
         flex-wrap: wrap;
     }
+	.konsultatsia-recvisits a{
+		all: unset;
+		display: contents;
+	}
     .recvisit{
         width: 353px;
         height: 90px;

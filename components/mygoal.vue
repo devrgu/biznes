@@ -3,7 +3,7 @@
         <div class="goal-content content">
             <div class="goal-title title">
                 <h2>Я сделаю все, чтобы вернуть вам гармоничные отношения, 
-                    здоровье и деньги!
+                    здоровье и время!
                 </h2>
                 <h3>Но это не значит, что вы можете просто расслабиться
                      и получать удовольствие. Результат в равной степени зависит и от 
@@ -12,12 +12,21 @@
                      жизнь и четко следовать моим рекомендациям. Но сначала:
                 </h3>        
             </div>        
-            <div class="main-button-continue-2 main-button goal-button">
+            <div class="main-button-continue-2 main-button goal-button" @click="dialogTrue">
                 <a>БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</a>
             </div>
         </div>       
     </div>
 </template>
+<script>
+export default {
+  methods:{
+	dialogTrue(){
+        this.$store.commit('dialog/dialogMutation', true);
+    },
+  }
+}
+</script>
 <style>
 .goal{
     background-image: url(/happy_family.jpg);

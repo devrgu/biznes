@@ -25,7 +25,7 @@
                <div class="problem-section-1-icon problem-section-icon"><img src="/zavist.svg"></div>
                <div class="problem-section-1-text problem-section-text">
                 <div class="problem-section-1-information problem-section-information">
-                 Стресс и давление: вы сталкиваетесь с высоким уровнем стресса и давления, связанным с необходимостью постоянно принимать важные решения и поддерживать свой бизнес?
+                 Стресс и давление: вы сталкиваетесь с высоким уровнем стресса и давления, связанным с необходимостью постоянно принимать важные решения и поддерживать свой бизнес или работу?
                 </div>
             </div>
             </div>
@@ -41,8 +41,7 @@
                <div class="problem-section-1-icon problem-section-icon"><img src="/ghost.svg"></div>
                <div class="problem-section-1-text problem-section-text">
                 <div class="problem-section-1-information problem-section-information">
-                 Вы взрываетесь, теряете контроль, а потом сожалеете о содеянном? Более того, Вы находите
-любые причины, чтобы оправдать свои поступки в глазах окружающих.
+                 Вам очень трудно доверять людям. Вы встречаете многих, но никогда не сближаетесь из-за страха потерять финансы. Вы сомневаетесь, действительно ли вы кому-то нравитесь или у них на уме лишь выгоды?
                 </div>
             </div>
             </div>

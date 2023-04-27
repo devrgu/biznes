@@ -3,17 +3,29 @@
     <div class="dd">
     <div class="zapis-content">
         <div class="name-block block">
-            <input class="name" ref="name" v-model="name" placeholder="Имя">
+            <label>Ваше имя</label>
+            <input class="name" ref="name" v-model="name" placeholder="Иван">
         </div>
         <div class="surname-block block">
-            <input class="surname" ref="surname" v-model="surname" placeholder="Фамилия">
+            <label>Фамилия</label>
+            <input class="surname" ref="surname" v-model="surname" placeholder="Смирнов">
         </div>
         <div class="email-block block">
-            <input class="email" ref="email" v-model="email" placeholder="Почта">
+            <label>Ваш E-mail</label>
+            <input class="email" type="email" ref="email" v-model="email" placeholder="example@gmail.com">
+        </div>
+        <div class="email-block block">
+            <label>Телефон / Whatsapp</label>
+            <input class="number" type="number" ref="number" v-model="number" placeholder="+7 (999) 999 99 99">
         </div>
         <div class="textarea-block block">
-            <textarea v-model="message" ref="message" placeholder="Опишите свою проблему, вопросы, предложения."></textarea>
-    </div>
+            <label>Кратко опишите проблему</label> 
+            <textarea v-model="problem" ref="problem" placeholder="Опишите проблему, вопросы, предложения."></textarea>
+        </div>
+         <div class="textarea-block block">
+            <label>Удобное время, день недели для бесплатной консультаций</label> 
+            <textarea v-model="date" ref="date" placeholder=""></textarea>
+        </div>
     </div>
     </div>
     <div class="description-model">
@@ -33,8 +45,10 @@
         name: '',
         surname: '',
         email: '',
-        message: '',
-        child: true
+        number: '',
+        problem: '',
+        date: '',
+        child: true 
     }
   },
         methods: {
@@ -42,8 +56,12 @@
       this.$axios.$post('/mail/send',{
         from: 'ededededdd',
         subject: 'Contact form message',
-        html: `Имя:${this.$refs.name.value},<br>Фамилия:${this.$refs.surname.value}<br>Почта:${this.$refs.email.value}<br>Проблема: ${this.$refs.message.value}`
-      })
+        html: `Имя:${this.name},<br>Фамилия:${this.surname}<br>Почта:${this.email}<br>Номер:${this.number}
+        <br>Проблема: ${this.problem}<br>Дата: ${this.date}`
+      });
+		const fullMessage = `Имя:${this.name}%0AФамилия:${this.surname}%0AПочта: ${this.email}%0AНомер: ${this.number}%0AПроблема: ${this.problem}%0AДата: ${this.date}`; 
+		
+		this.$axios.$post(`https://api.telegram.org/bot${process.env.TOKEN}/sendMessage?chat_id=${process.env.ID}&text=${fullMessage}`)
   },
             
  }
@@ -52,7 +70,6 @@
 </script>
 <style scoped>
     .dd{
-        margin-bottom: 56px;
         display: flex;
         justify-content: center;
     }
@@ -61,24 +78,37 @@
         padding: 0 24px;
     }
     .block{
-        display: flex;
-        justify-content: center;
+         max-width: 400px;
+         margin-bottom: 32px;
     }
+    .block label{
+        display: inline-block;
+        width: 100%;
+        font-size: 18px;
+        font-weight: 300;
+        color: #000;
+        vertical-align: middle;
+        height: 100%;
+        padding-right: 10px;
+        padding-bottom: 5px;
+    } 
     .block input{
-        width: 350px;
-        height: 60px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 55px;
         border: 1px solid rgba(0, 66, 105, 0.28);
         background-color: #FFFFFF;
         color: black;
-        margin-bottom: 32px;
         padding-left: 12px;
-        font-size: 18px;
-        font-weight: 500;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.33;
         border-radius: 4px;
         outline: none;
     }
     .block textarea{
-        width: 350px;
+        box-sizing: border-box;
+        width: 100%;
         height: 90px;
         background-color: #FFFFFF;
         border: 1px solid rgba(0, 66, 105, 0.28);
@@ -133,23 +163,37 @@
         font-size: 15px;
         color: #41cb52;
     }
+  .v-dialog::-webkit-scrollbar{
+    display: none
+  }
+  .v-dialog{
+        width: 100% !important;
+        margin: 0 !important;
+        cursor: pointer;
+        box-shadow: none !important;
+      }
+  .v-dialog:not(.v-dialog--fullscreen){
+      max-height: none;
+      height: 100% !important;
+    }
   @media (max-width: 560px) {
         .main-buttons{
             flex-wrap: wrap;
         }
-        .block input{
-          height: 50px;
-      }
-      .v-dialog{
-        width: 100% !important;
-        margin: 0 !important;
-      }
-      div div .v-dialog__content{
+	  	.wrap-close{
+			padding: 0px !important;
+	  	}
+       .v-dialog__content{
         padding-top: 50px !important;
       }
-    .v-dialog:not(.v-dialog--fullscreen){
-      max-height: none;
-      height: 100% !important;
-    }
+	  .v-dialog__content--active{
+		  background-color: #000
+	  }
+	  .wrap-success .v-dialog__content--active{
+		  background-color: none
+	  }
+      .block input{
+          height: 50px !important
+      }
     }
 </style>

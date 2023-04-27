@@ -4,37 +4,17 @@
    <div class="main-text-content">
      <div class="main-text-wrapper">
        <h1>
-Вы многие годы безуспешно пытаетесь найти свободное время, устранить стрессы и давление, стать здоровым? Но это не дало вам ничего кроме разочарования?</h1>
+Вы многие годы безуспешно пытаетесь выйти с оков работы, устранить стрессы и давление, стать здоровым? Но это не дало вам ничего кроме разочарования?</h1>
          <p>Через Ваше подсознание я Вас выведу из этого состояния в физическое пространство где вы наслаждаетесь своими мечтами...<br>
 </p>
        <div class="buttons">
-         <div class="main-button-zapis main-button">
+         <div class="main-button-zapis main-button" @click="dialogTrue">
            <a>Записаться на бесплатную консультацию</a>
          </div>
        </div>
      </div>
    </div>
  </div>
- <v-app>
-      <v-dialog v-model="dialog" width="600">
-        <v-card height="800">
-          <div class="window">
-            <div class="window-content">
-               <div class="window-title">
-                       <p>Оставьте заявку для<br>
-                           <span>Обратной связи</span></p>
-                   </div>
-                   <div class="window-forms">
-                <keep-alive>
-                <zapisatsa @someEvent="Close"/>
-
-                </keep-alive>
-              </div>
-            </div>
-          </div>
-        </v-card>
-      </v-dialog>
-    </v-app>
 </div>
 </template>
 <script>
@@ -46,9 +26,10 @@
     }
   },
         methods:{
-    Close () {
-      this.dialog = false
-    },}
+			dialogTrue(){
+        this.$store.commit('dialog/dialogMutation', true);
+     },
+		}
 }
 
 </script>
