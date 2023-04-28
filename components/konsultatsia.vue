@@ -98,7 +98,7 @@ export default {
         color: #FFFFFF;
         font-size: 30px;
         font-weight: 600;
-        margin-bottom: 40px
+        margin: 0 40px 40px
     }
     div .main-button-continue-2{
         background-color: #FFFFFF;
@@ -165,7 +165,7 @@ export default {
     }
     @media (max-width: 767px) {
         div.konsultatsia-title h3{
-            font-size: calc(17px + (19 + 19 * 0.7) * ((100vw - 320px) / 1280));
+            font-size: calc(16px + (19 + 19 * 0.7) * ((100vw - 320px) / 1280));
             margin: 0 2px;
         }
         div .main-button-continue-2{

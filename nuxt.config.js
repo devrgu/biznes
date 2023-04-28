@@ -4,7 +4,10 @@ require('dotenv').config()
 export default {
   server:{
 	host: '0.0.0.0'
-  },  
+  },
+  axios: {
+    baseURL: 'https://serikaubakirov.tk', // Used as fallback if no runtime config is provided
+  },
 	head: {
     titleTemplate: '%s - vetom.korea',
     title: 'kadyrzhan',
@@ -45,7 +48,7 @@ export default {
   modules: [
       "@nuxtjs/svg",
       '@nuxtjs/axios',
-	  '@nuxtjs/dotenv',
+	 [ '@nuxtjs/dotenv', { path: './' }],
     ['nuxt-mail', {
       message: {
         to: 'saubakirov36@gmail.com',

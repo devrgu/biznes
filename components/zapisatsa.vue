@@ -61,8 +61,15 @@
       });
 		const fullMessage = `Имя:${this.name}%0AФамилия:${this.surname}%0AПочта: ${this.email}%0AНомер: ${this.number}%0AПроблема: ${this.problem}%0AДата: ${this.date}`; 
 		
-		this.$axios.$post(`https://api.telegram.org/bot${process.env.TOKEN}/sendMessage?chat_id=${process.env.ID}&text=${fullMessage}`)
-  },
+		this.$axios.$post(`https://api.telegram.org/bot${process.env.TOKEN}/sendMessage?chat_id=${process.env.ID}&text=${fullMessage}`);
+		
+		this.name = '',
+        this.surname = '',
+        this.email = '',
+        this.number = '',
+        this.problem = '',
+        this.date = ''
+   },
             
  }
 }
