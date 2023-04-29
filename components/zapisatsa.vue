@@ -29,7 +29,8 @@
     </div>
     </div>
     <div class="description-model">
-                    <p>Нажимая на кнопку "Отправить заявку" Вы соглашаетесь с политикой конфиденциальности <nuxt-link to="/rights">Серика Аубакирова.</nuxt-link></p>
+		<p>Нажимая на кнопку "Отправить заявку" Вы соглашаетесь с политикой конфиденциальности
+                <a target="_blank" href="https://serikaubakirov.tk/privacy">Серика Аубакирова.</a></p>
                 </div>
                        <div class="main-buttons">
                 <div class="zapisatsa-button" @click.prevent="send"  @click="$emit('someEvent', child)">

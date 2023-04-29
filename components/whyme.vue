@@ -83,7 +83,7 @@ export default {
     }
     .whyme-title{
         text-align: center;
-        margin: 0 15px 75px;
+        margin: 0 15px 75px !important;
     }
     .hr-center hr{
         width: 100px;

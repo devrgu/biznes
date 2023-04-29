@@ -81,10 +81,10 @@ export default {
     }
 }
 @media (max-width: 767px){
-    .goal-title h2{
+    div.goal-title h2{
         font-size: calc(24px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280)) !important;
     }
-	.goal-title h4{
+	div.goal-title h4{
         font-size: calc(18px + (6 + 6 * 0.7) * ((100vw - 320px) / 1280)) !important;
     }
 }

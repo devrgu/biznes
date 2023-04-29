@@ -116,10 +116,10 @@ img {
   }
 	@media (max-width: 767px){
         .title h2{
-            font-size: calc(28px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+            font-size: calc(28px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280)) !important;
         }
 		.title h3{
-			font-size: calc(21px + (2 + 2 * 0.7) * ((100vw - 320px) / 1280));
+			font-size: calc(21px + (2 + 2 * 0.7) * ((100vw - 320px) / 1280)) !important;
 		}
     }
 </style>

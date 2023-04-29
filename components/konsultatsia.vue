@@ -165,7 +165,7 @@ export default {
     }
     @media (max-width: 767px) {
         div.konsultatsia-title h3{
-            font-size: calc(16px + (19 + 19 * 0.7) * ((100vw - 320px) / 1280));
+            font-size: calc(16px + (19 + 19 * 0.7) * ((100vw - 320px) / 1280)) !important;
             margin: 0 0 10px;
         }
         div .main-button-continue-2{
