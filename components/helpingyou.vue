@@ -2,7 +2,7 @@
     <div class="whatdoing">
         <div class="whatdoing-content content">
             <div class="whatdoing-img">
-                <img src="/photo-section-1.jpeg">
+                <img src="/serik.jpg">
             </div>
             <div class="whatdoing-text">
                 <div class="whatdoing-title title">
@@ -14,9 +14,9 @@
                 <div class="whatdoing-information information">
                     <p>
                     <span>
-Меня зовут Серик Аубакиров, я сертифицированный специалист и эксперт American Academy Holistic Mind Therapy.</span>
-<span>Обращайтесь ко мне, я знаю всю вашу боль. Я знаю, как пройти через это. Вам в подсознание нужен образ мира, которого вы не замечаете. Это ваше притяжение! Я приведу вас в ресурсное состояние покоя. Только при этом раскладе у вас откроется притяжение успеха ваших действий.</span>
-<span>Я не очередной семейный психолог, к которому нужно ходить как на работу. Вам не понадобится много сеансов, ведь я не просто выслушиваю своих пациентов, а помогаю устранить первопричину проблем в бизнесе и даю четкие инструкции, как снова привести свою жизнь в порядок и забыть проблемы которые когда-то не оставляли вас в покое.</span></p>
+						Меня зовут <strong>Серик Аубакиров,</strong> я сертифицированный <strong>специалист</strong> и <strong>эксперт American Academy Holistic Mind Therapy.</strong></span>
+						<span>Обращайтесь ко мне, я знаю всю вашу <strong>боль.</strong> Я знаю, как пройти через это. Вам в <strong>подсознание</strong> нужен образ мира, которого вы не замечаете. Это ваше <strong>притяжение!</strong> Я приведу вас в ресурсное состояние <strong>покоя.</strong> Только при этом раскладе у вас откроется <strong>притяжение успеха ваших действий.</strong></span>
+						<span>Я <strong>не очередной семейный психолог,</strong> к которому нужно ходить как на работу. Вам <strong>не понадобится много сеансов,</strong> ведь я не просто выслушиваю своих пациентов, а помогаю <strong>устранить первопричину проблем в бизнесе</strong> и даю <strong>четкие инструкции,</strong> как снова привести свою <strong>жизнь</strong> в порядок и забыть <strong>проблемы</strong> которые когда-то не оставляли вас в <strong>покое.</strong></span></p>
                 </div>
             </div>
         </div>
@@ -24,7 +24,8 @@
 </template>
 <style>
     .whatdoing{
-        padding: 60px 0 10px 0    
+        padding: 60px 0 90px 0;
+		background-color: #f5f5f5
     }
     .whatdoing-content{
         display: flex;
@@ -63,6 +64,7 @@
     }
     .whatdoing-title{
         display: inline-block;
+		margin: 0 !important;
     }
     .information{
         color: #343a40;
@@ -79,31 +81,37 @@
     }
     @media (max-width: 991px){
         .whatdoing-content{
-            flex-wrap: wrap
+            flex-wrap: wrap;
         }
         .whatdoing-img{
-            padding: 0 0 58% 0;
+            display: flex;
+			justify-content: center;
+			order: 1;
+			margin: 20px 20px 0px;
         }
+		.whatdoing-img img{
+			width: 565px;
+			position: static;
+		}
         .whatdoing-text{
             margin-top: 48px;
             min-width: 0;
         }
     }
-    @media (max-width: 767px){
-        .title h2{
-            font-size: calc(28px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
-        }
-    }
+	@media (max-width: 560px){
+		.whatdoing-img img{
+			height: 450px;
+		}
+	}
     @media (max-width: 465px){
         .whatdoing-text{
             margin-left: 16px;
             margin-right: 16px
         }
-        .whatdoing-img{
-            padding: 0 0 270px 0;
-        }
-        .whatdoing-img img{
-            top: -70px;
-        }
     }
+	@media (max-width: 465px){
+		.whatdoing-img img{
+			height: 400px;
+		}
+	}
 </style>

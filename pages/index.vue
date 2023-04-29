@@ -30,9 +30,8 @@
   
 </script>
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900;1000&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap');
   /* Указываем box sizing */
-  $body-font-family: 'Mulish';
 *,
 *::before,
 *::after {
@@ -112,4 +111,15 @@ img {
     position: fixed;
     width: 100%;
   }
+  .title h3{
+	color: #000;
+  }
+	@media (max-width: 767px){
+        .title h2{
+            font-size: calc(28px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+        }
+		.title h3{
+			font-size: calc(21px + (2 + 2 * 0.7) * ((100vw - 320px) / 1280));
+		}
+    }
 </style>

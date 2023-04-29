@@ -5,12 +5,12 @@
                 <h2>Я сделаю все, чтобы вернуть вам гармоничные отношения, 
                     здоровье и время!
                 </h2>
-                <h3>Но это не значит, что вы можете просто расслабиться
+                <h4>Но это не значит, что вы можете просто расслабиться
                      и получать удовольствие. Результат в равной степени зависит и от 
                      меня, и от Вас. Вы должны действительно хотеть кардинально
                       изменить свою 
                      жизнь и четко следовать моим рекомендациям. Но сначала:
-                </h3>        
+                </h4>        
             </div>        
             <div class="main-button-continue-2 main-button goal-button" @click="dialogTrue">
                 <a>БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</a>
@@ -31,7 +31,7 @@ export default {
 .goal{
     background-image: url(/happy_family.jpg);
     background-position: center;
-    height: 650px;
+    min-height: 650px;
     width: 100%;
     z-index: -10;
     text-align: center;
@@ -47,7 +47,7 @@ export default {
 .goal-title h2{
     color: #fff;
 }
-.goal-title h3{
+.goal-title h4{
     margin: 40px 0;
     font-weight: 400;
     font-size: 20px !important;
@@ -59,6 +59,7 @@ export default {
     background-color: #41cb52 !important;
     color: #fff !important;
     padding: 20px;
+	margin-bottom: 40px;
     line-height: normal !important;
 }
 @media (max-width: 331px){
@@ -81,7 +82,10 @@ export default {
 }
 @media (max-width: 767px){
     .goal-title h2{
-        font-size: calc(24px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+        font-size: calc(24px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280)) !important;
+    }
+	.goal-title h4{
+        font-size: calc(18px + (6 + 6 * 0.7) * ((100vw - 320px) / 1280)) !important;
     }
 }
 </style>

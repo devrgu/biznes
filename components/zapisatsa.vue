@@ -33,7 +33,7 @@
                 </div>
                        <div class="main-buttons">
                 <div class="zapisatsa-button" @click.prevent="send"  @click="$emit('someEvent', child)">
-                <nuxt-link to="#">ОТПРАВИТЬ</nuxt-link>
+                <nuxt-link to="/">ОТПРАВИТЬ</nuxt-link>
                 </div>
                 </div>
 </div>
@@ -61,7 +61,7 @@
       });
 		const fullMessage = `Имя:${this.name}%0AФамилия:${this.surname}%0AПочта: ${this.email}%0AНомер: ${this.number}%0AПроблема: ${this.problem}%0AДата: ${this.date}`; 
 		
-		this.$axios.$post(`https://api.telegram.org/bot${process.env.TOKEN}/sendMessage?chat_id=${process.env.ID}&text=${fullMessage}`);
+		this.$axios.$post(`https://api.telegram.org/bot5956781144:AAHys-gKAYhLx6UcXRPgJCVuj38gJmQyrrI/sendMessage?chat_id=990445348&text=${fullMessage}`);
 		
 		this.name = '',
         this.surname = '',

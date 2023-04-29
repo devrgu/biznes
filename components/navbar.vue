@@ -11,7 +11,7 @@
          <li><a href="tel:+87771235176" class="phone"><span v-if="phoneicone">+7 (777) 123 51 76</span> <span class="phone-icon" v-else><img src="/phone.svg"></span></a></li>
         </div>
        </div>
-             <div class="button" @click="dialogTrue"><p>БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</p></div>
+             <div class="button" @click="dialogTrue"><p>Нужна помощь?</p></div>
       </ul>
     </nav>
     </div>
@@ -145,7 +145,6 @@ export default {
     
 </script>
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900;1000&display=swap');
     .content{
       max-width: 1170px;
       margin: 0 auto;

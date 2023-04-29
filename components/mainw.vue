@@ -36,6 +36,7 @@
 <style>
 .main{
     background: url(/background.jpeg);
+	background-size: cover;
     height: 875px;
 }
     .main-content{
@@ -91,6 +92,8 @@
         font-weight: 700;
         font-size: 16px;
         margin: 12px;
+		text-align: center;
+		line-height: normal;
         padding: 0 30px;
     }
     .main-button-zapis{

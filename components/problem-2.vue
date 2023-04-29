@@ -1,55 +1,61 @@
 <template>
-<div class="problem">
+<div class="problem problem-2">
     <div class="problem-content content">
         <div class="problem-title title">
-            <h2>Вы уже разочарованы?</h2>
+			<h2>Вы уже <span>разочарованы?</span></h2>
         </div>
         <div class="problem-sections">
             <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/vaccination.svg"></div>
                <div class="problem-section-1-text problem-section-text">
+               <div class="problem-section-1-titile problem-section-title title"><h3>Вы тщетно пытались?</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-                 <p>Вы ходили по психологам, цель которых заключалась в том, чтобы сделать из вас постоянного клиента.</p>
+				  <p>Вы ходили по психологам, цель которых заключалась в том, чтобы сделать из вас <strong>постоянного клиента.</strong></p>
                 </div>
             </div>
             </div>
              <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/psyhology.svg"></div>
                <div class="problem-section-1-text problem-section-text">
+               <div class="problem-section-1-titile problem-section-title title"><h3>Книги не помогли? </h3></div>
                 <div class="problem-section-1-information problem-section-information">
-                 <p>Вы перечитали кучу книг по теории отношений и здоровья, написанные депрессивными психологами о том как им самим хотелось бы изменится...</p>
+					<p>Вы перечитали кучу книг по теории <strong>отношений и здоровья,</strong> написанные <strong>депрессивными психологами</strong> о том как им самим хотелось бы <strong>изменится...</strong></p>
                 </div>
             </div>
             </div>
              <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/pig.svg"></div>
                <div class="problem-section-1-text problem-section-text">
+               <div class="problem-section-1-titile problem-section-title title"><h3>Нету свободного времени?</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-                 <p>Вы пытались уменьшить свои обязательства, делегировать задачи или нанимать помощников, но это не помогло?</p>
+					<p>Вы пытались уменьшить свои <strong>обязательства,</strong> делегировать <strong>задачи</strong> или нанимать <strong>помощников,</strong> но это <strong>не помогло?</strong></p>
                 </div>
             </div>
             </div>
              <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/tv.svg"></div>
                <div class="problem-section-1-text problem-section-text">
+               <div class="problem-section-1-titile problem-section-title title"><h3>Самообман не помогает?</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-                 <p>Вы пытались уменьшить свой стресс и давление, занимаясь йогой, медитацией или другими методами релаксации, но это была лишняя суета без прогресса?</p>
+					<p>Вы пытались уменьшить свой <strong>стресс</strong> и <strong>давление,</strong> занимаясь йогой, медитацией или другими методами релаксации, но это была <strong>лишняя суета без прогресса?</strong></p>
                 </div>
             </div>
             </div>
              <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/clean_people.svg"></div>
                <div class="problem-section-1-text problem-section-text">
+               <div class="problem-section-1-titile problem-section-title title"><h3>На словах легко?</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-                 <p>Вам давали советы люди, создавшие такую жизнь, которую вы не пожелали бы даже врагу...</p>
+					<p>Вам <strong>давали советы</strong> люди, создавшие такую <strong>жизнь</strong>, которую вы <strong>не пожелали бы даже врагу...</strong></p>
                 </div>
             </div>
             </div>
              <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/clean_brain.svg"></div>
                <div class="problem-section-1-text problem-section-text">
+               <div class="problem-section-1-titile problem-section-title title"><h3>Бесполезные тренинги?</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-                 <p>Вы ходили на тренинги, где вас веселили радикальными и шокирующими советами и они у вас не сработали...</p>
+					<p>Вы ходили на <strong>тренинги,</strong> где вас веселили <strong>радикальными</strong> и <strong>шокирующими</strong> советами и они у вас <strong>не сработали...</strong></p>
             </div>
             </div>
     </div>
@@ -60,8 +66,8 @@
 <script>
 </script>
 <style>
-    .problem{
-        margin-top: 100px;
+    .problem-2{
+        margin: 80px 0 40px !important;
     }
     .problem-content{
         text-align: center;
@@ -70,7 +76,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin: 80px 0 0 0;
+        margin: 80px 0 0 0 !important;
     }
     .problem-section{
         max-width: 350px;
@@ -96,7 +102,8 @@
         margin-top: 10px;
     }
     .title{
-        white-space: normal !important
+        white-space: normal !important;
+		margin: 0 20px;
     }
     .title h3{
         font-size: 18px;
