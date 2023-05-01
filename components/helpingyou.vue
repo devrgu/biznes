@@ -16,7 +16,7 @@
                     <span>
 						Меня зовут <strong>Серик Аубакиров,</strong> я сертифицированный <strong>специалист</strong> и <strong>эксперт American Academy Holistic Mind Therapy.</strong></span>
 						<span>Обращайтесь ко мне, я знаю всю вашу <strong>боль.</strong> Я знаю, как пройти через это. Вам в <strong>подсознание</strong> нужен образ мира, которого вы не замечаете. Это ваше <strong>притяжение!</strong> Я приведу вас в ресурсное состояние <strong>покоя.</strong> Только при этом раскладе у вас откроется <strong>притяжение успеха ваших действий.</strong></span>
-						<span>Я <strong>не очередной семейный психолог,</strong> к которому нужно ходить как на работу. Вам <strong>не понадобится много сеансов,</strong> ведь я не просто выслушиваю своих пациентов, а помогаю <strong>устранить первопричину проблем в бизнесе</strong> и даю <strong>четкие инструкции,</strong> как снова привести свою <strong>жизнь</strong> в порядок и забыть <strong>проблемы</strong> которые когда-то не оставляли вас в <strong>покое.</strong></span></p>
+						<span>Я <strong>не очередной семейный психолог,</strong>к которому нужно ходить как на работу. Вам <strong>не понадобится много сеансов,</strong> ведь я не просто выслушиваю своих пациентов, а помогаю <strong>устранить первопричину проблем в бизнесе</strong> и даю <strong>четкие инструкции,</strong> как снова привести свою <strong>жизнь</strong> в порядок и забыть <strong>проблемы</strong> которые когда-то не оставляли вас в <strong>покое.</strong></span></p>
                 </div>
             </div>
         </div>
@@ -82,6 +82,7 @@
     @media (max-width: 991px){
         .whatdoing-content{
             flex-wrap: wrap;
+			max-width: 767px !important;
         }
         .whatdoing-img{
             display: flex;
@@ -94,10 +95,15 @@
 			position: static;
 		}
         .whatdoing-text{
-            margin-top: 48px;
+            margin: 48px 20px 0 25px;
             min-width: 0;
         }
     }
+	@media (max-width: 767px) {
+		.information{
+			font-size: calc(17px + (2 + 2 * 0.7) * ((100vw - 320px) / 1280)) !important;
+		}
+	}
 	@media (max-width: 560px){
 		.whatdoing-img img{
 			height: 450px;
