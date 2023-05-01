@@ -14,7 +14,7 @@
                    </div>
                     </div>
                    <div class="hapiness-img">
-                       <img loading="lazy" src="/hapiness%20img%20block.png">
+                       <img loading="lazy" alt="Счастливые люди после сеанса" src="/hapiness%20img%20block.png">
                    </div>
                 </div>
                    <div class="avtor">

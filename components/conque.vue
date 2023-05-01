@@ -12,7 +12,7 @@
            <div class="conque-wrap">
             <div class="conque-card-1 conque-card">
                 <div class="conque-card-1-icon conque-card-icon">
-                    <img src="/galochka.svg"/>
+                    <img src="/galochka.svg" loading="lazy">
                 </div>
                 <div class="conque-card-1-text conque-card-text">
                     <div class="conque-card-1-title conque-card-title">
@@ -27,7 +27,7 @@
             </div>
             <div class="conque-card-1 conque-card">
                 <div class="conque-card-1-icon conque-card-icon">
-                    <img src="/galochka.svg"/>
+                    <img src="/galochka.svg" loading="lazy">
                 </div>
                 <div class="conque-card-1-text conque-card-text">
                     <div class="conque-card-1-title conque-card-title">
@@ -40,7 +40,7 @@
             </div>
             <div class="conque-card-1 conque-card">
                 <div class="conque-card-1-icon conque-card-icon">
-                    <img src="/galochka.svg"/>
+                    <img src="/galochka.svg" loading="lazy">
                 </div>
                 <div class="conque-card-1-text conque-card-text">
                     <div class="conque-card-1-title conque-card-title">
@@ -53,7 +53,7 @@
             </div>
             <div class="conque-card-1 conque-card">
                 <div class="conque-card-1-icon conque-card-icon">
-                    <img src="/galochka.svg"/>
+                    <img src="/galochka.svg" loading="lazy">
                 </div>
                 <div class="conque-card-1-text conque-card-text">
                     <div class="conque-card-1-title conque-card-title">
@@ -66,7 +66,7 @@
             </div>
             <div class="conque-card-1 conque-card">
                 <div class="conque-card-1-icon conque-card-icon">
-                    <img src="/galochka.svg"/>
+                    <img src="/galochka.svg" loading="lazy">
                 </div>
                 <div class="conque-card-1-text conque-card-text">
                     <div class="conque-card-1-title conque-card-title">
@@ -79,7 +79,7 @@
             </div>
             <div class="conque-card-1 conque-card">
                 <div class="conque-card-1-icon conque-card-icon">
-                    <img src="/galochka.svg"/>
+                    <img src="/galochka.svg" loading="lazy">
                 </div>
                 <div class="conque-card-1-text conque-card-text">
                     <div class="conque-card-1-title conque-card-title">

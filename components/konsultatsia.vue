@@ -13,8 +13,10 @@
     <div class="konsultatsia-recvisits">
        <a href="https://t.me/SerukAubakirov">
         <div class="office recvisit">
-            <div class="recvisit-box-icon">
-                <iconpobeditel  width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"/>
+            <div class="recvisit-box-icon recvisit-box-icon-phone">
+                <telegram version="1.0" xmlns="http://www.w3.org/2000/svg"
+ 					width="64" height="64" viewBox="0 0 512.000000 512.000000"
+ 					preserveAspectRatio="xMidYMid meet"/>
             </div>
             <div class="recvisit-box-text">
                 <div class="recvisit-box-title">
@@ -29,7 +31,9 @@
         <a href="mailto:saubakirov36@gmail.com">
         <div class="office recvisit">
             <div class="recvisit-box-icon">
-                <iconpobeditel  width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"/>
+                <email version="1.0" xmlns="http://www.w3.org/2000/svg"
+ 					width="64" height="64" viewBox="0 0 512.000000 512.000000"
+ 					preserveAspectRatio="xMidYMid meet"/>
             </div>
             <div class="recvisit-box-text">
                 <div class="recvisit-box-title">
@@ -44,7 +48,9 @@
         <a href="tel:+87771235176">
         <div class="office recvisit">
             <div class="recvisit-box-icon">
-                <iconpobeditel  width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"/>
+                <phone version="1.0" xmlns="http://www.w3.org/2000/svg"
+ 					width="64" height="64" viewBox="0 0 512.000000 512.000000"
+ 					preserveAspectRatio="xMidYMid meet"/>
             </div>
             <div class="recvisit-box-text">
                 <div class="recvisit-box-title">
@@ -61,10 +67,16 @@
 </template>
 <script>
 import iconpobeditel from '~/assets/img/iconpobeditel.svg?inline';
+import phone from '~/assets/img/phone.svg?inline';
+import telegram from '~/assets/img/telegram.svg?inline';
+import email from '~/assets/img/email.svg?inline';
 
 export default {
   components: {
-    iconpobeditel
+    iconpobeditel,
+	 phone,
+	 telegram,
+	  email
   },
   methods:{
 	dialogTrue(){
@@ -106,6 +118,7 @@ export default {
         display: inline-flex;
         border-radius: 5px;
         height: 55px;
+		cursor: pointer
     }
     .konsultatsia-recvisits{
         display: flex;
@@ -130,6 +143,7 @@ export default {
         position: relative;
         display: flex;
         margin: 0 10px 24px 10px;
+		cursor: pointer;
     }
     .recvisit-box-text{
         text-align: initial !important;
@@ -147,7 +161,7 @@ export default {
         margin-right: 20px;
     }
     .recvisit-box-icon svg{
-        width: 50px;
+        width: 38px;
     }
     .recvisit-box-icon svg path{
         fill: #41cb52 !important;

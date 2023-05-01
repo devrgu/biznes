@@ -8,7 +8,9 @@
        <div class="nav-list">
        <div class="nav-list-content">
         <li class="main-link-navbar"><nuxt-link to="/" exact v-if="phoneicone">ГЛАВНОЕ</nuxt-link></li>
-         <li><a href="tel:+87771235176" class="phone"><span v-if="phoneicone">+7 (777) 123 51 76</span> <span class="phone-icon" v-else><img src="/phone.svg"></span></a></li>
+         <li><a href="tel:+87771235176" class="phone"><span v-if="phoneicone">+7 (777) 123 51 76</span> <span class="phone-icon" v-else><phone version="1.0" xmlns="http://www.w3.org/2000/svg"
+ 					width="64" height="64" viewBox="0 0 512.000000 512.000000"
+ 					preserveAspectRatio="xMidYMid meet"/></span></a></li>
         </div>
        </div>
              <div class="button" @click="dialogTrue"><p>Нужна помощь?</p></div>
@@ -70,6 +72,7 @@
 <script type="text/javascript">
 import { mapGetters } from 'vuex'
 import zapisatsa from '~/components/zapisatsa.vue'
+import phone from '~/assets/img/phone.svg?inline';	
 export default {
   data () {
     return {
@@ -81,7 +84,7 @@ export default {
   },
     components: {
       zapisatsa,
-      
+      phone
   },
       computed: {
           ...mapGetters ({
@@ -210,7 +213,7 @@ export default {
 		border-radius: 64px;
 		
 	}
-	.phone-icon img{
+	.phone-icon svg{
 		width: 24px;
 	}
 	.main-buttons{

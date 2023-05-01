@@ -6,7 +6,7 @@
         </div>
         <div class="problem-sections">
             <div class="problem-section-1 problem-section">
-               <div class="problem-section-1-icon problem-section-icon"><img src="/vaccination.svg"></div>
+               <div class="problem-section-1-icon problem-section-icon"><img src="/vaccination.svg" loading="lazy"></div>
                <div class="problem-section-1-text problem-section-text">
                <div class="problem-section-1-titile problem-section-title title"><h3>Вы тщетно пытались?</h3></div>
                 <div class="problem-section-1-information problem-section-information">
@@ -15,7 +15,7 @@
             </div>
             </div>
              <div class="problem-section-1 problem-section">
-               <div class="problem-section-1-icon problem-section-icon"><img src="/psyhology.svg"></div>
+               <div class="problem-section-1-icon problem-section-icon"><img src="/psyhology.svg" loading="lazy"></div>
                <div class="problem-section-1-text problem-section-text">
                <div class="problem-section-1-titile problem-section-title title"><h3>Книги не помогли? </h3></div>
                 <div class="problem-section-1-information problem-section-information">
@@ -24,7 +24,7 @@
             </div>
             </div>
              <div class="problem-section-1 problem-section">
-               <div class="problem-section-1-icon problem-section-icon"><img src="/pig.svg"></div>
+               <div class="problem-section-1-icon problem-section-icon"><img src="/pig.svg" loading="lazy"></div>
                <div class="problem-section-1-text problem-section-text">
                <div class="problem-section-1-titile problem-section-title title"><h3>Нету свободного времени?</h3></div>
                 <div class="problem-section-1-information problem-section-information">
@@ -33,7 +33,7 @@
             </div>
             </div>
              <div class="problem-section-1 problem-section">
-               <div class="problem-section-1-icon problem-section-icon"><img src="/tv.svg"></div>
+               <div class="problem-section-1-icon problem-section-icon"><img src="/tv.svg" loading="lazy"></div>
                <div class="problem-section-1-text problem-section-text">
                <div class="problem-section-1-titile problem-section-title title"><h3>Самообман не помогает?</h3></div>
                 <div class="problem-section-1-information problem-section-information">
@@ -42,7 +42,7 @@
             </div>
             </div>
              <div class="problem-section-1 problem-section">
-               <div class="problem-section-1-icon problem-section-icon"><img src="/clean_people.svg"></div>
+               <div class="problem-section-1-icon problem-section-icon"><img src="/clean_people.svg" loading="lazy"></div>
                <div class="problem-section-1-text problem-section-text">
                <div class="problem-section-1-titile problem-section-title title"><h3>На словах легко?</h3></div>
                 <div class="problem-section-1-information problem-section-information">
@@ -51,7 +51,7 @@
             </div>
             </div>
              <div class="problem-section-1 problem-section">
-               <div class="problem-section-1-icon problem-section-icon"><img src="/clean_brain.svg"></div>
+               <div class="problem-section-1-icon problem-section-icon"><img src="/clean_brain.svg" loading="lazy"></div>
                <div class="problem-section-1-text problem-section-text">
                <div class="problem-section-1-titile problem-section-title title"><h3>Бесполезные тренинги?</h3></div>
                 <div class="problem-section-1-information problem-section-information">

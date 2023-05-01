@@ -10,7 +10,7 @@
     <div class="whyme-content content">
         <div class="reason-1 reason">
             <div class="reason-1-icon reason-icon">
-                <img src="/like.svg">
+                <img src="/like.svg" loading="lazy">
             </div>
             <div class="reason-1-text reason-text">
                 <div class="reason-1-title reason-title">
@@ -23,7 +23,7 @@
         </div>
         <div class="reason-1 reason">
             <div class="reason-1-icon reason-icon">
-            <img src="/new-life.svg">
+            <img src="/new-life.svg" loading="lazy">
             </div>
             <div class="reason-1-text reason-text">
                 <div class="reason-1-title reason-title">
@@ -36,7 +36,7 @@
         </div>
         <div class="reason-1 reason">
             <div class="reason-1-icon reason-icon">
-        <img src="/lotos.svg">
+        <img src="/lotos.svg" loading="lazy">
             </div>
             <div class="reason-1-text reason-text">
                 <div class="reason-1-title reason-title">
@@ -49,7 +49,7 @@
         </div>
         <div class="reason-1 reason">
             <div class="reason-4-icon reason-icon">
-                 <img src="/money.svg">
+                 <img src="/money.svg" loading="lazy">
             </div>
             <div class="reason-1-text reason-text">
                 <div class="reason-1-title reason-title">

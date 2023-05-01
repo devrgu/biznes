@@ -2,7 +2,7 @@
     <div class="whatdoing">
         <div class="whatdoing-content content">
             <div class="whatdoing-img">
-                <img src="/serik.jpg">
+                <img src="/serik.jpg" alt="Целитель гипнотерапевт Серик Аубакиров">
             </div>
             <div class="whatdoing-text">
                 <div class="whatdoing-title title">

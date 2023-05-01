@@ -95,6 +95,7 @@
 		text-align: center;
 		line-height: normal;
         padding: 0 30px;
+		cursor: pointer !important;
     }
     .main-button-zapis{
         background-color: #41cb52;
