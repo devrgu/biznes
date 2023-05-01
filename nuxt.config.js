@@ -56,11 +56,11 @@ export default {
       },
       smtp: {
         service: 'gmail',
-        host: 'kxqj taim yiif cqhq',
+        host: 'smtp.gmail.com',
         port: 465,
         auth: {
           user: 'saubakirov36@gmail.com',
-          pass: 'agja yzmx erwq ddfr'
+          pass: 'kxqj taim yiif cqhq'
         },
       },
     }],
