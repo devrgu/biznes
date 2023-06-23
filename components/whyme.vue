@@ -14,10 +14,10 @@
             </div>
             <div class="reason-1-text reason-text">
                 <div class="reason-1-title reason-title">
-                    <h3>Будете любимыми и любить</h3>
+                    <h3>Решите проблемы бизнеса!</h3>
                 </div>
                 <div class="reason-1-information reason-information information">
-                  <p>Вы снова научитесь любить и с благодарностью принимать любовь близкого человека</p>
+                  <p>Вы наконец-то ощутите свободу и избавитесь от тревог и безысходности</p>
                 </div>
             </div>
         </div>
@@ -27,10 +27,10 @@
             </div>
             <div class="reason-1-text reason-text">
                 <div class="reason-1-title reason-title">
-                    <h3>Вернете свое здоровье</h3>
+                    <h3>Улучшите прибыль и эффективность вашего бизнеса</h3>
                 </div>
                 <div class="reason-1-information reason-information information">
-                    <p>Вы вспомните, как прекрасно ощущать жизнь в неуставшем здоровом теле.</p>
+                    <p>Ваш бизнес будет приносить вам и радость и стремление к лучшему</p>
                 </div>
             </div>
         </div>
@@ -53,10 +53,10 @@
             </div>
             <div class="reason-1-text reason-text">
                 <div class="reason-1-title reason-title">
-                    <h3>Ваш круг общения</h3>
+                    <h3>У вас наконец получиться!</h3>
                 </div>
                 <div class="reason-1-information reason-information information">
-                    <p>Вы научитесь доверять людям и правильно фильтровать свой круг общения</p>
+                    <p>Вы увидите как при малом усилий, ваши результаты будут удивительными!</p>
                 </div>
             </div>
         </div>

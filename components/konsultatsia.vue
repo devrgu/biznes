@@ -3,7 +3,7 @@
     <div class="konsultatsia-content">
        <div class="konsultatsia-wrap content">
         <div class="konsultatsia-title title">   
-            <h3>Моя авторская программа "Serik Mind Therapy for life" уже помогла многим людям, чья жизнь зашла в тупик. Они снова полюбили, стали мудрее, сумели пережить обиды и избавились от всего, что завело их в ловушку холодности, непонимания и проблемам со здоровьем.</h3>
+            <h3>Моя авторская программа "Serik Mind Therapy for Biznes" уже помогла многим людям, чья жизнь зашла в тупик. Они снова обрели свободу, стали мудрее, улучшили свой бизнес и живут счастливо!</h3>
         </div>
         <div class="main-button-continue-2 main-button" @click="dialogTrue">
            <a>БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</a>

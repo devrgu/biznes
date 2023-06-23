@@ -8,21 +8,21 @@
             <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/family_problem.svg"></div>
                <div class="problem-section-1-text problem-section-text">
-               <div class="problem-section-1-titile problem-section-title title"><h3>Отношения</h3></div>
+               <div class="problem-section-1-titile problem-section-title title"><h3>Ничего не получается?</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-					вы сталкиваетесь с <strong>трудностями в отношениях</strong>, как личных, так и профессиональных, из-за того, что ваши расписания и обязательства могут <strong>создавать проблемы</strong> в поддержании баланса между работой и личной жизнью?
+					Почему <strong>у вас ничего не получается</strong>, в отличий от ваших коллег? <strong>Вы трудитесь усерднее и пытаетесь чего то добиться</strong>, а им достаточно немного для хорошего результата. <strong>В этом есть простая закономерность</strong>, вы никогда о ней не догадывались, я объясню и помогу вам в <strong>бесплатной консультаций!</strong>
                 </div>
             </div>
             </div>
              <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/have_not_time.svg"></div>
                <div class="problem-section-1-text problem-section-text">
-               <div class="problem-section-1-titile problem-section-title title"><h3>Управление временем</h3></div>
+               <div class="problem-section-1-titile problem-section-title title"><h3>Страх за бизнес?</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-					у вас часто <strong>очень много дел</strong>, и вы сталкиваетесь с трудностями в управлении своим <strong>временем и приоритетами?</strong>
+					Вы думаете что вас ждут проблемы, когда появиться деньги и капитал? <strong>Вы чувствуете как противники и партнеры хотят забрать ваши деньги и бизнес?</strong>  
                 </div>
-            </div>
-            </div>
+             </div>
+             </div>
              <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/zavist.svg"></div>
                <div class="problem-section-1-text problem-section-text">
@@ -35,9 +35,9 @@
              <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/agression.svg"></div>
                <div class="problem-section-1-text problem-section-text">
-               <div class="problem-section-1-titile problem-section-title title"><h3>Ужасная агрессия?</h3></div>
+               <div class="problem-section-1-titile problem-section-title title"><h3>Появился посторонний?</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-					У вас <strong>ужасная агрессия?</strong> Вы <strong>не можете контролировать свою ярость?</strong> Вас <strong>раздражает</strong>, когда Ваши дети и родственники Вас не слушаются и это <strong>Вас бесит?</strong> Даже ваша собака Вас <strong>подбешивает</strong>.
+					Со стороны <strong>появляется некая женщина или мужчина</strong> манипулируя, войти в доверье, создать интригу, которая <strong>может изнутри разрушить семью и бизнес?</strong>
                 </div>
             </div>
             </div>
@@ -53,9 +53,9 @@
              <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/broke_heart.svg"></div>
                <div class="problem-section-1-text problem-section-text">
-               <div class="problem-section-1-titile problem-section-title title"><h3>Проблемы здоровья</h3></div>
+               <div class="problem-section-1-titile problem-section-title title"><h3>Вы устали?</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-					в связи с <strong>высоким уровнем стресса и давления</strong>, вы сталкиваетесь с проблемами <strong>здоровья</strong>, такими как <strong>бессонница</strong>, <strong>высокое кровяное давление?</strong>
+					Вы морально <strong>устали от всех проблем?</strong> в частности от <strong>необходимости поддержания бизнеса?</strong> Устали от безысходности?
                 </div>
             </div>
             </div>
