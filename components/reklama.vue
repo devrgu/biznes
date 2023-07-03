@@ -10,7 +10,7 @@
     <div class="video-content">
        <div class="video-row1 video-row">
         <div class="1-block-video block-video">
-            <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/OAZcjdgQCv4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe loading="lazy" width="560" height="315" src="https://youtu.be/khnhi6slHlc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="2-block-video block-video">
            <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/98ce17-TOJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
