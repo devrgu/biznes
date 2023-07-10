@@ -53,7 +53,7 @@
                        <p>Вы успешно оставили заявку<br>
                            <span>Ожидайте ответа</span></p>
                 </div>
-                 <div class="description-model">
+                 <div class="description-model description-success">
                     <p>Вы готовы изменить свою жизнь, раз и навсегда? Приготовьтесь!</p>
                 </div>
                 <div class="main-buttons">
@@ -77,7 +77,7 @@ export default {
   data () {
     return {
         data:'',
-        success: false,
+        success: true,
         scrolled: false,
         phoneicone: undefined
     }
@@ -260,7 +260,6 @@ export default {
 		justify-content: center;
 		align-items: center
 	}
-	
 	  .wrap-close{
 		padding: 65px 50px;
 	  }
@@ -326,6 +325,9 @@ export default {
         .window-title{
         margin-bottom: 48px;
         }
+        .success-title{
+		margin-bottom: 36px !important;
+	    }
 		.nav-list{
 			margin: 0;
 		}
