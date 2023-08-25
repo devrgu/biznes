@@ -60,7 +60,7 @@ export default {
         port: 465,
         auth: {
           user: 'saubakirov36@gmail.com',
-          pass: 'hxar ihbe ggzq vqhd'
+          pass: 'uacm xwpi zctq rdlm'
         },
       },
     }],
