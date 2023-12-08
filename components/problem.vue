@@ -28,7 +28,7 @@
                <div class="problem-section-1-text problem-section-text">
 				<div class="problem-section-1-titile problem-section-title title"><h3>Проблемы только ухудшаются?</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-					вы сталкиваетесь с <strong>высоким уровнем стресса и давления</strong>, ведь помимо <strong>прошлого горького опыта вашей молодости,</strong> у вас <strong>нету энергий и вы слишком ленивы?</strong>
+					вы сталкиваетесь с <strong>высоким уровнем стресса и давления, горманальное нарушения вызывает онкологию</strong>, ведь помимо <strong>прошлого горького опыта вашего прошлого,</strong> у вас <strong>нету энергий и вы слишком ленивы?</strong>
                 </div>
             </div>
             </div>
