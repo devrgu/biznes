@@ -14,7 +14,7 @@
             </div>
             <div class="reason-1-text reason-text">
                 <div class="reason-1-title reason-title">
-                    <h3>Решите проблемы бизнеса!</h3>
+                    <h3>Избавитесь от боли и обретете свое счастье и призвание</h3>
                 </div>
                 <div class="reason-1-information reason-information information">
                   <p>Вы наконец-то ощутите свободу и избавитесь от тревог и безысходности</p>
@@ -27,10 +27,10 @@
             </div>
             <div class="reason-1-text reason-text">
                 <div class="reason-1-title reason-title">
-                    <h3>Улучшите прибыль и эффективность вашего бизнеса</h3>
+                    <h3>Улучшите прибыль и эффективность в вашем призваний</h3>
                 </div>
                 <div class="reason-1-information reason-information information">
-                    <p>Ваш бизнес будет приносить вам и радость и стремление к лучшему</p>
+                    <p>Ваше призвание будет приносить вам и радость и стремление к лучшему</p>
                 </div>
             </div>
         </div>
@@ -43,7 +43,7 @@
                     <h3>Обретете покой души</h3>
                 </div>
                 <div class="reason-1-information reason-information information">
-                    <p>Вы забудете о конфликтах, агрессии, спешки, стресса и взаимной раздраженности.</p>
+                    <p>Вы забудете о конфликтах, агрессии, спешки, стресса и не заболеете онкологий.</p>
                 </div>
             </div>
         </div>
@@ -56,7 +56,7 @@
                     <h3>У вас наконец получиться!</h3>
                 </div>
                 <div class="reason-1-information reason-information information">
-                    <p>Вы увидите как при малом усилий, ваши результаты будут удивительными!</p>
+                    <p>Вы увидите как при малом усилий, ваши результаты будут удивительными в изменений жизни!</p>
                 </div>
             </div>
         </div>

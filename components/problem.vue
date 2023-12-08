@@ -8,36 +8,36 @@
             <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/family_problem.svg"></div>
                <div class="problem-section-1-text problem-section-text">
-               <div class="problem-section-1-titile problem-section-title title"><h3>Ничего не получается?</h3></div>
+               <div class="problem-section-1-titile problem-section-title title"><h3>Физическое-моральное изнасилование мешает вам в вашем выборе?</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-					Почему <strong>у вас ничего не получается</strong>, в отличий от ваших коллег? <strong>Вы трудитесь усерднее и пытаетесь чего то добиться</strong>, а им достаточно немного для хорошего результата. <strong>В этом есть простая закономерность</strong>, вы никогда о ней не догадывались, я объясню и помогу вам в <strong>бесплатной консультаций!</strong>
+					Вы <strong>боитесь принять какое либо решение</strong>, потому что это решение напоминает вам о <strong>ваших насильственных психотравмах?</strong>
                 </div>
             </div>
             </div>
              <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/have_not_time.svg"></div>
                <div class="problem-section-1-text problem-section-text">
-               <div class="problem-section-1-titile problem-section-title title"><h3>Страх за бизнес?</h3></div>
+               <div class="problem-section-1-titile problem-section-title title"><h3>Вы досихпор жалеете о прошлом?</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-					Вы думаете что вас ждут проблемы, когда появиться деньги и капитал? <strong>Вы чувствуете как противники и партнеры хотят забрать ваши деньги и бизнес?</strong>  
+					Ваши <strong>психотравмы</strong> мучают вас досихпор? Вы хотите избавиться от этих <strong>навязчивых мыслей и стереть осадок с души, пытаясь заглушить это алкоголем или наркотическими стимуляторами?</strong>  
                 </div>
              </div>
              </div>
              <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/zavist.svg"></div>
                <div class="problem-section-1-text problem-section-text">
-				<div class="problem-section-1-titile problem-section-title title"><h3>Стресс и давление</h3></div>
+				<div class="problem-section-1-titile problem-section-title title"><h3>Проблемы только ухудшаются?</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-					вы сталкиваетесь с <strong>высоким уровнем стресса и давления</strong>, связанным с необходимостью постоянно принимать <strong>важные решения и поддерживать свой бизнес или работу?</strong>
+					вы сталкиваетесь с <strong>высоким уровнем стресса и давления</strong>, ведь помимо <strong>прошлого горького опыта вашей молодости,</strong> у вас <strong>нету энергий и вы слишком ленивы?</strong>
                 </div>
             </div>
             </div>
              <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/agression.svg"></div>
                <div class="problem-section-1-text problem-section-text">
-               <div class="problem-section-1-titile problem-section-title title"><h3>Появился посторонний?</h3></div>
+               <div class="problem-section-1-titile problem-section-title title"><h3>Вы не можете найти свое призвание?</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-					Со стороны <strong>появляется некая женщина или мужчина</strong> манипулируя, войти в доверье, создать интригу, которая <strong>может изнутри разрушить семью и бизнес?</strong>
+					Вам приходиться попрошайничать и просить средства у мужчин, <strong>из-за безысходности?</strong>
                 </div>
             </div>
             </div>
@@ -46,7 +46,7 @@
                <div class="problem-section-1-text problem-section-text">
                <div class="problem-section-1-titile problem-section-title title"><h3>Доверие и взаимопонимание</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-					Вам очень <strong>трудно доверять людям</strong>. Вы встречаете многих, но <strong>никогда не сближаетесь</strong> из-за <strong>страха потерять финансы</strong>. Вы сомневаетесь, действительно ли вы кому-то нравитесь или у них на уме лишь <strong>выгоды?</strong>
+					Вам очень <strong>трудно доверять людям</strong>. Вы отталкиваете от себя людей и партнеров, вы не <strong>можете обрести счастье в отношениях?</strong>
                 </div>
             </div>
             </div>
@@ -55,7 +55,7 @@
                <div class="problem-section-1-text problem-section-text">
                <div class="problem-section-1-titile problem-section-title title"><h3>Вы устали?</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-					Вы морально <strong>устали от всех проблем?</strong> в частности от <strong>необходимости поддержания бизнеса?</strong> Устали от безысходности?
+					Вы морально <strong>устали от всех проблем?</strong> в частности от многолетнего давления<strong> напоминания о изнасилований в молодости?</strong> <strong>Устали от безпомощности?</strong>
                 </div>
             </div>
             </div>

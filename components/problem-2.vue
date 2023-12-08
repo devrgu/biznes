@@ -10,7 +10,7 @@
                <div class="problem-section-1-text problem-section-text">
                <div class="problem-section-1-titile problem-section-title title"><h3>Вы тщетно пытались?</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-				  <p>Вы ходили по психологам, цель которых заключалась в том, чтобы сделать из вас <strong>постоянного клиента.</strong></p>
+				  <p>Вы ходили по психологам и прошли многие духовные практики, цель которых заключалась в том, чтобы сделать из вас <strong>постоянного клиента.</strong></p>
                 </div>
             </div>
             </div>
@@ -26,9 +26,9 @@
              <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/pig.svg" loading="lazy"></div>
                <div class="problem-section-1-text problem-section-text">
-               <div class="problem-section-1-titile problem-section-title title"><h3>Нету свободного времени?</h3></div>
+               <div class="problem-section-1-titile problem-section-title title"><h3>Лень что-то предпринять для себя?</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-					<p>Вы пытались уменьшить свои <strong>обязательства,</strong> делегировать <strong>задачи</strong> или нанимать <strong>помощников,</strong> но это <strong>не помогло?</strong></p>
+					<p>Ваши психотравмы начинают олицетворяться с демонами, инопланетянами, духами умерших людей.</p>
                 </div>
             </div>
             </div>
