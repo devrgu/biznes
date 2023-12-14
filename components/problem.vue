@@ -26,9 +26,9 @@
              <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/zavist.svg"></div>
                <div class="problem-section-1-text problem-section-text">
-				<div class="problem-section-1-titile problem-section-title title"><h3>Проблемы только ухудшаются?</h3></div>
+				<div class="problem-section-1-titile problem-section-title title"><h3>Психотравма которая сокращает 20 лет жизни</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-					Вы сталкиваетесь с <strong>высоким уровнем стресса и давления, ведь помимо <strong>горького опыта вашего прошлого,</strong> ПТСР вызывают онкологию и разложение мозга!</strong>
+					Вы сталкиваетесь с <strong>высоким уровнем стресса и давления, ведь помимо <strong>горького опыта вашего прошлого,</strong> ПТСР вызывают рак матки, груди и яичника</strong>
                 </div>
             </div>
             </div>
