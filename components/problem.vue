@@ -8,55 +8,54 @@
             <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/family_problem.svg"></div>
                <div class="problem-section-1-text problem-section-text">
-               <div class="problem-section-1-titile problem-section-title title"><h3>Физическое-моральное изнасилование мешает вам в вашем выборе?</h3></div>
+               <div class="problem-section-1-titile problem-section-title title"><h3>Чувство потерянности и неопределенности</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-					Вы <strong>боитесь принять какое либо решение</strong>, потому что это решение напоминает вам о <strong>ваших насильственных психотравмах?</strong>
+					Вы без четкого понимания своего призвания можете чувствовать себя потерянным в мире возможностей, не зная, какой путь выбрать. Это чувство неопределенности может вызывать стресс и тревогу.
                 </div>
             </div>
             </div>
              <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/have_not_time.svg"></div>
                <div class="problem-section-1-text problem-section-text">
-               <div class="problem-section-1-titile problem-section-title title"><h3>Вы досихпор жалеете о прошлом?</h3></div>
+               <div class="problem-section-1-titile problem-section-title title"><h3>Недовольство текущей работой или карьерой</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-					Ваши <strong>психотравмы</strong> мучают вас досихпор? Вы хотите избавиться от этих <strong>навязчивых мыслей и стереть осадок с души, пытаясь заглушить это алкоголем или наркотическими стимуляторами?</strong>  
+					Ваша работа, которая не соответствует внутренним убеждениям и страстям, может вызывать ощущение застоя и уныния, делая каждый рабочий день испытанием.
                 </div>
              </div>
              </div>
              <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/zavist.svg"></div>
                <div class="problem-section-1-text problem-section-text">
-				<div class="problem-section-1-titile problem-section-title title"><h3>Психотравма которая сокращает 20 лет жизни</h3></div>
+				<div class="problem-section-1-titile problem-section-title title"><h3>Страх перед будущим и принятием решений</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-					Вы сталкиваетесь с <strong>высоким уровнем стресса и давления, ведь помимо <strong>горького опыта вашего прошлого,</strong> ПТСР вызывают рак матки, груди и яичника</strong>
+					Боязнь сделать "неправильный" выбор может парализовать и мешать двигаться вперед, в результате чего вы остаетесь на месте, несмотря на желание изменений.
                 </div>
             </div>
             </div>
              <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/agression.svg"></div>
                <div class="problem-section-1-text problem-section-text">
-               <div class="problem-section-1-titile problem-section-title title"><h3>Вы не можете найти свое призвание?</h3></div>
+               <div class="problem-section-1-titile problem-section-title title"><h3>Сравнение себя с другими</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-					Вам приходиться попрошайничать и просить средства у мужчин, <strong>из-за безысходности?</strong>
-                    У вас <strong>нету призвания и вы слишком ленивы?</strong>
+					Наблюдение за успехами сверстников, которые, кажется, нашли свое призвание, может усилить чувство неполноценности и зависти, углубляя личный кризис.
                 </div>
             </div>
             </div>
              <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/ghost.svg"></div>
                <div class="problem-section-1-text problem-section-text">
-               <div class="problem-section-1-titile problem-section-title title"><h3>Доверие и взаимопонимание</h3></div>
+               <div class="problem-section-1-titile problem-section-title title"><h3>Разочарование от неудачных попыток найти свое призвание</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-					Вам очень <strong>трудно доверять людям</strong>. Вы отталкиваете от себя людей и партнеров, вы не <strong>можете обрести счастье в отношениях?</strong>
+					Многократные попытки найти страсть и неудачи в этих стремлениях могут привести к депрессий и сомнениям в своих способностях.
                 </div>
             </div>
             </div>
              <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/broke_heart.svg"></div>
                <div class="problem-section-1-text problem-section-text">
-               <div class="problem-section-1-titile problem-section-title title"><h3>Вы устали?</h3></div>
+               <div class="problem-section-1-titile problem-section-title title"><h3>Ощущение упущенного времени и возможностей</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-					Вы морально <strong>устали от всех проблем?</strong> в частности от многолетнего давления<strong> напоминания о изнасилований в молодости?</strong> <strong>Устали от безпомощности?</strong>
+					С годами может возникнуть чувство, что слишком поздно что-либо менять, и что лучшие годы и возможности уже упущены.
                 </div>
             </div>
             </div>

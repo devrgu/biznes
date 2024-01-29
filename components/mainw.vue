@@ -3,10 +3,9 @@
  <div class="main-content content">
    <div class="main-text-content">
      <div class="main-text-wrapper">
-       <h1>Вашей жизни мешает ПТСР, это приводит к разложению жизни?
-        <br>Предлагаю вам избавиться от психотравм полученных при изнасилований</h1>
-		 <p>Настало время <strong>перестать</strong> страдать и терпеть от посттравматического синдромного расстройства, полученного в прошлом, психотравмы, которые не дают вам жить счастливой жизнью!<br> 
-Я гарантированно избавлю вас от внутренних конфликтов, влияющего на пережившее в прошлом, уничтожающие вашу жизнь! <br>
+       <h1>Откройте для себя свою истинную страсть и призвание в жизни!
+        <br>Вы чувствуете, что занимаетесь не тем, что вам по-настоящему интересно? Это момент перемен!</h1>
+		 <p>Я готов помочь вам <strong>раскрыть ваш потенциал и построить свою жизнь</strong>вокруг того, что вам действительно нравится. Перейдите к новому этапу в своей жизни – этапу, где вы с уверенностью и энтузиазмом следуете своему призванию!<br>
 </p>
        <div class="buttons">
          <div class="main-button-zapis main-button" @click="dialogTrue">
@@ -36,9 +35,9 @@
 </script>
 <style>
 .main{
-    background: url(/background-2.jpeg);
+    background: url(/background-3.png);
 	background-size: cover;
-    height: 875px;
+	height: 875px;
 }
     .main-content{
         position: relative;
@@ -60,6 +59,7 @@
     .main-text-content{
       padding: 0 15px;
       position: relative;
+	  
       
     }
     .main-text-wrapper h1{
@@ -68,6 +68,7 @@
         font-weight: 800;
         color: #FFFFFF;
         line-height: 1.2;
+		text-shadow: 2px 2px 4px #000000;
     }
     .main-text-wrapper h1 span{
         color: #41cb52;

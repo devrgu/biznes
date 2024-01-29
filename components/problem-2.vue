@@ -8,54 +8,54 @@
             <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/vaccination.svg" loading="lazy"></div>
                <div class="problem-section-1-text problem-section-text">
-               <div class="problem-section-1-titile problem-section-title title"><h3>Вы тщетно пытались?</h3></div>
+               <div class="problem-section-1-titile problem-section-title title"><h3>Бесконечный поиск идеальной работы</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-				  <p>Вы ходили по психологам и прошли многие духовные практики, цель которых заключалась в том, чтобы сделать из вас <strong>постоянного клиента.</strong></p>
+					<p>Вы перепробовали десятки профессий, но каждая из них казалась не вашей. <strong>Я предлагаю не просто работу, а миссию, которая глубоко резонирует с вашей душой.</strong></p>
                 </div>
             </div>
             </div>
              <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/psyhology.svg" loading="lazy"></div>
                <div class="problem-section-1-text problem-section-text">
-               <div class="problem-section-1-titile problem-section-title title"><h3>Книги не помогли? </h3></div>
+               <div class="problem-section-1-titile problem-section-title title"><h3>Застревание в образовательном цикле</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-					<p>Вы перечитали кучу книг по теории <strong>отношений и здоровья,</strong> написанные <strong>депрессивными психологами</strong> о том как им самим хотелось бы <strong>изменится...</strong></p>
+					<p>Вы получили столько сертификатов и дипломов, сколько могли, надеясь найти свой путь, но это только увеличило вашу потерянность. <strong>Моя программа направлена на действие и реализацию вашего потенциала в реальной жизни.</strong> </p>
                 </div>
             </div>
             </div>
              <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/pig.svg" loading="lazy"></div>
                <div class="problem-section-1-text problem-section-text">
-               <div class="problem-section-1-titile problem-section-title title"><h3>Лень что-то предпринять для себя?</h3></div>
+               <div class="problem-section-1-titile problem-section-title title"><h3>Погоня за страстями, которые не приносили удовлетворения</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-					<p>Ваши психотравмы начинают олицетворяться с демонами, инопланетянами, духами умерших людей.</p>
+					<p>Вы пытались превратить хобби в карьеру, но каждая попытка оставляла чувство пустоты.<strong>Я помогаю вам найти страсть, которая наполняет каждый ваш день смыслом и радостью</strong>.</p>
                 </div>
             </div>
             </div>
              <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/tv.svg" loading="lazy"></div>
                <div class="problem-section-1-text problem-section-text">
-               <div class="problem-section-1-titile problem-section-title title"><h3>Самообман не помогает?</h3></div>
+               <div class="problem-section-1-titile problem-section-title title"><h3>Изменение жизненного стиля в поисках вдохновения</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-					<p>Вы пытались уменьшить свой <strong>стресс</strong> и <strong>давление,</strong> занимаясь йогой, медитацией или другими методами релаксации, но это была <strong>лишняя суета без прогресса?</strong></p>
+					<p>От йоги до медитации, от веганства до кругосветных путешествий – вы искали ответы во внешних изменениях, игнорируя внутренний голос. <strong>Мой подход учит прислушиваться к себе и находить ответы внутри.</strong></p>
                 </div>
             </div>
             </div>
              <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/clean_people.svg" loading="lazy"></div>
                <div class="problem-section-1-text problem-section-text">
-               <div class="problem-section-1-titile problem-section-title title"><h3>На словах легко?</h3></div>
+               <div class="problem-section-1-titile problem-section-title title"><h3>Подражание успехам других</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-					<p>Вам <strong>давали советы</strong> люди, создавшие такую <strong>жизнь</strong>, которую вы <strong>не пожелали бы даже врагу...</strong></p>
+					<p>Вы пытались копировать пути успешных людей, надеясь на аналогичный результат, но это только отдаляло вас от вашего призвания. <strong>Я показываю, как создать свой собственный путь успеха, которая отражает вашу индивидуальность.</strong></p>
                 </div>
             </div>
             </div>
              <div class="problem-section-1 problem-section">
                <div class="problem-section-1-icon problem-section-icon"><img src="/clean_brain.svg" loading="lazy"></div>
                <div class="problem-section-1-text problem-section-text">
-               <div class="problem-section-1-titile problem-section-title title"><h3>Бесполезные тренинги?</h3></div>
+               <div class="problem-section-1-titile problem-section-title title"><h3>Отказ от мечты из-за страха неудачи</h3></div>
                 <div class="problem-section-1-information problem-section-information">
-					<p>Вы ходили на <strong>тренинги,</strong> где вас веселили <strong>радикальными</strong> и <strong>шокирующими</strong> советами и они у вас <strong>не сработали...</strong></p>
+					<p>Сколько раз вы отказывались от мечты, потому что боялись потерпеть неудачу? <strong>Я предлагаю вам среду, где каждая неудача – это шаг к успеху, и где ваша мечта поддерживается и вдохновляется.</strong></p>
             </div>
             </div>
     </div>
