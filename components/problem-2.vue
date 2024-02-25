@@ -2,7 +2,7 @@
 <div class="problem problem-2">
     <div class="problem-content content">
         <div class="problem-title title">
-			<h2>Вы уже <span>разочарованы?</span></h2>
+			<h2>Вы уже <span>пытались?</span></h2>
         </div>
         <div class="problem-sections">
             <div class="problem-section-1 problem-section">

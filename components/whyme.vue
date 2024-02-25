@@ -1,7 +1,7 @@
 <template>
 <div class="whyme">
    <div class="whyme-title sections-title title">
-       <h2>Я открываю вам дверь к жизни,<br> наполненной призванием и смыслом!</h2>
+       <h2>Я открою вам дверь к жизни,<br> наполненной призванием и смыслом!</h2>
        <div class="hr-center">
            <hr>
        </div>

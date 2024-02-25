@@ -7,7 +7,6 @@
       <ul>
        <div class="nav-list">
        <div class="nav-list-content">
-        <li class="main-link-navbar"><nuxt-link to="/" exact v-if="phoneicone">ГЛАВНОЕ</nuxt-link></li>
          <li><a href="tel:+87771235176" class="phone"><span v-if="phoneicone">+7 (777) 123 51 76</span> <span class="phone-icon" v-else><phone version="1.0" xmlns="http://www.w3.org/2000/svg"
  					width="64" height="64" viewBox="0 0 512.000000 512.000000"
  					preserveAspectRatio="xMidYMid meet"/></span></a></li>
