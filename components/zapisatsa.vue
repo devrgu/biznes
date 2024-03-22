@@ -101,7 +101,7 @@ export default {
         <br>Проблема: ${this.problem}<br>Дата: ${this.date}`,
         });
         
-        await this.$axios.$post(`https://api.telegram.org/bot5956781144:AAHys-gKAYhLx6UcXRPgJCVuj38gJmQyrrI/sendMessage?chat_id=990445348&text=${fullMessage}`);
+        await this.$axios.$post(`https://api.telegram.org/bot7114571924:AAFCX6cXtLvj2-30ovPN6spHeES7NuZsLUo/sendMessage?chat_id=7126677498&text=${fullMessage}`);
         
         this.$emit("someEvent", this.child);
 
