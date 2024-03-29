@@ -134,6 +134,7 @@ export default {
       this.$store.commit('dialog/dialogMutation', false);
       if(child == true){
         this.success = true
+        window.location.hash = 'success';
       }
     },
     Changekonsultatsia () {

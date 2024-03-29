@@ -24,6 +24,7 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
+  
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -43,6 +44,9 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
+    ['@nuxtjs/google-analytics', {
+      id: 'G-10QV903ZHQ'
+    }]
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
