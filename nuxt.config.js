@@ -49,12 +49,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
       "@nuxtjs/svg",
-      '@nuxtjs/axios',
-      ['nuxt-gtag', {
-      gtag: {
-        id: 'G-10QV903ZHQ'
-      },
-      }], 
+      '@nuxtjs/axios', 
 	 [ '@nuxtjs/dotenv', { path: './' }],
     ['nuxt-mail', {
       message: {
