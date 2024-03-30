@@ -53,6 +53,11 @@ export default {
   modules: [
       "@nuxtjs/svg",
       '@nuxtjs/axios',
+      ['nuxt-gtag', {
+      gtag: {
+        id: 'AW-11023770095'
+      },
+      }], 
 	 [ '@nuxtjs/dotenv', { path: './' }],
     ['nuxt-mail', {
       message: {
