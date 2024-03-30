@@ -44,9 +44,6 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
-    ['@nuxtjs/google-analytics', {
-      id: 'G-10QV903ZHQ'
-    }]
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -55,7 +52,7 @@ export default {
       '@nuxtjs/axios',
       ['nuxt-gtag', {
       gtag: {
-        id: 'AW-11023770095'
+        id: 'G-10QV903ZHQ'
       },
       }], 
 	 [ '@nuxtjs/dotenv', { path: './' }],
