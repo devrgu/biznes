@@ -86,7 +86,7 @@ export default {
   },
   methods: {
     async send() {
-      if (!this.name || !this.surname || !this.email || !this.problem || !this.date) {
+      if (!this.name || !this.surname || !this.email || !this.number || !this.problem || !this.date) {
         this.error = "Заполните все поля";
       } else {
         try {
